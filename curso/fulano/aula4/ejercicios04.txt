@@ -1,0 +1,19 @@
+1. ¿Cuántas palabras, caracteres y líneas tiene el archivo names.txt?
+
+2. Use grep para obtener solo nombres que comiencen con A
+
+ - Consejo: patrón "^ A" letra A al comienzo de una línea
+ - patrón "A" letra A en cualquier posición de la línea
+3. Use grep para obtener solo nombres que NO comiencen con A. Ponga el resultado
+en names_nao_a.txt
+
+- Consejo: opción –v (invierte la dirección grep)
+
+4. Use el comando diff para comparar names.txt con names_no_a.txt
+
+5. El archivo /share/pesquisa.txt contiene resultados brutos de los votos de una elección con
+Varios candidatos. Cópialo en tu área. Use una combinación de sort, uniq y WC para
+diga cuántos candidatos diferentes fueron votados.
+
+6. Dibuje una línea de comando para imprimir en la pantalla el nombre de cada candidato y su
+número de votos en orden descendente de número de votos
