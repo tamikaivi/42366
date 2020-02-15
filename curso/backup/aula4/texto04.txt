@@ -1,0 +1,164 @@
+- Que procesos se esta ejecutando en el usuario
+
+
+
+UID        PID  PPID  C STIME TTY          TIME CMD
+vivian     896     1  0 07:35 ?        00:00:00 /lib/systemd/systemd --user
+vivian     897   896  0 07:35 ?        00:00:00 (sd-pam)
+vivian     910     1  0 07:35 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+vivian     914   750  0 07:35 tty1     00:00:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+vivian     916   914  0 07:35 tty1     00:00:20 /usr/lib/xorg/Xorg vt1 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+vivian     952   896  0 07:35 ?        00:00:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+vivian     956   914  0 07:35 tty1     00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+vivian    1051   956  0 07:35 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+vivian    1054   896  0 07:35 ?        00:00:00 /usr/lib/gvfs/gvfsd
+vivian    1059   896  0 07:35 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+vivian    1068   896  0 07:35 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+vivian    1073  1068  0 07:35 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+vivian    1076   896  0 07:35 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+vivian    1094   956  3 07:35 tty1     00:01:41 /usr/bin/gnome-shell
+vivian    1111     1  0 07:35 ?        00:00:01 /usr/bin/pulseaudio --start --log-target=syslog
+vivian    1142  1094  0 07:36 tty1     00:00:03 ibus-daemon --xim --panel disable
+vivian    1146   896  0 07:36 ?        00:00:00 /usr/libexec/xdg-permission-store
+vivian    1149  1142  0 07:36 tty1     00:00:00 /usr/lib/ibus/ibus-dconf
+vivian    1153     1  0 07:36 tty1     00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+vivian    1155   896  0 07:36 ?        00:00:00 /usr/lib/ibus/ibus-portal
+vivian    1166   896  0 07:36 ?        00:00:00 /usr/lib/gnome-shell/gnome-shell-calendar-server
+vivian    1170   896  0 07:36 ?        00:00:00 /usr/lib/evolution/evolution-source-registry
+vivian    1179   896  0 07:36 ?        00:00:00 /usr/lib/gnome-online-accounts/goa-daemon
+vivian    1188   896  0 07:36 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+vivian    1195   896  0 07:36 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+vivian    1200   896  0 07:36 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+vivian    1207   896  0 07:36 ?        00:00:00 /usr/lib/gnome-online-accounts/goa-identity-service
+vivian    1215   896  0 07:36 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+vivian    1219   896  0 07:36 ?        00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+vivian    1223   956  0 07:36 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-power
+vivian    1226   956  0 07:36 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+vivian    1228   956  0 07:36 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+vivian    1229   956  0 07:36 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+vivian    1230   956  0 07:36 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+vivian    1233   956  0 07:36 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+vivian    1237   956  0 07:36 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+vivian    1241   956  0 07:36 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+vivian    1258   956  0 07:36 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+vivian    1266   956  0 07:36 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+vivian    1271   956  0 07:36 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+vivian    1274   956  0 07:36 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-color
+vivian    1276   956  0 07:36 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+vivian    1277   956  0 07:36 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+vivian    1281   956  0 07:36 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+vivian    1285   956  0 07:36 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+vivian    1287   956  0 07:36 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+vivian    1294     1  0 07:36 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-printer
+vivian    1332   956  0 07:36 tty1     00:00:03 nautilus-desktop
+vivian    1335   956  0 07:36 tty1     00:00:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+vivian    1358  1054  0 07:36 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+vivian    1380   896  0 07:36 ?        00:00:01 /usr/lib/evolution/evolution-calendar-factory
+vivian    1384   896  0 07:36 ?        00:00:00 /usr/lib/dconf/dconf-service
+vivian    1394  1380  0 07:36 ?        00:00:01 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1380x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1380/2
+vivian    1406   896  0 07:36 ?        00:00:00 /usr/lib/evolution/evolution-addressbook-factory
+vivian    1414  1406  0 07:36 ?        00:00:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1406x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1406/2
+vivian    1443  1142  0 07:36 tty1     00:00:01 /usr/lib/ibus/ibus-engine-simple
+vivian    1462   956  0 07:37 tty1     00:00:11 /usr/bin/gnome-software --gapplication-service
+vivian    1468   956  0 07:37 tty1     00:00:00 update-notifier
+vivian    1541   956  0 07:38 tty1     00:00:00 /usr/lib/deja-dup/deja-dup-monitor
+vivian    1775   896  0 07:40 ?        00:00:12 /usr/lib/gnome-terminal/gnome-terminal-server
+vivian    1798  1775  0 07:40 pts/0    00:00:00 bash
+vivian    1867  1775  0 07:46 pts/1    00:00:00 bash
+vivian    2270   896  0 08:06 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+vivian    2693  1798  0 08:27 pts/0    00:00:00 ps -fu vivian
+
+esto se puede ver con el comando ps -fu vivian 
+
+- Que procesos se esta ejecuntado en todos los usuarios
+ 
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+vivian    1867  0.0  0.2  29816  5580 pts/1    Ss+  07:46   0:00 bash
+vivian    1798  0.0  0.2  29816  5380 pts/0    Ss   07:40   0:00 bash
+vivian    2711  0.0  0.1  46944  3764 pts/0    R+   08:30   0:00  \_ ps -fu
+vivian     914  0.0  0.2 212128  6104 tty1     Ssl+ 07:35   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+vivian     916  0.6  3.2 422076 83908 tty1     Rl+  07:35   0:22  \_ /usr/lib/xorg/Xorg vt1 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+vivian     956  0.0  0.6 716904 15904 tty1     Sl+  07:35   0:00  \_ /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+vivian    1094  3.3 11.4 2991212 299312 tty1   Rl+  07:35   1:50      \_ /usr/bin/gnome-shell
+vivian    1142  0.1  0.3 377676 10076 tty1     Sl   07:36   0:05      |   \_ ibus-daemon --xim --panel disable
+vivian    1149  0.0  0.3 296652  8604 tty1     Sl   07:36   0:00      |       \_ /usr/lib/ibus/ibus-dconf
+vivian    1443  0.0  0.3 220928  8512 tty1     Sl   07:36   0:01      |       \_ /usr/lib/ibus/ibus-engine-simple
+vivian    1223  0.0  0.9 527404 24140 tty1     Sl+  07:36   0:00      \_ /usr/lib/gnome-settings-daemon/gsd-power
+vivian    1226  0.0  0.3 349320 10220 tty1     Sl+  07:36   0:00      \_ /usr/lib/gnome-settings-daemon/gsd-print-notifications
+vivian    1228  0.0  0.2 423344  6012 tty1     Sl+  07:36   0:00      \_ /usr/lib/gnome-settings-daemon/gsd-rfkill
+vivian    1229  0.0  0.2 275732  5904 tty1     Sl+  07:36   0:00      \_ /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+vivian    1230  0.0  0.4 471188 11264 tty1     Sl+  07:36   0:00      \_ /usr/lib/gnome-settings-daemon/gsd-sharing
+vivian    1233  0.0  0.3 466452 10076 tty1     Sl+  07:36   0:00      \_ /usr/lib/gnome-settings-daemon/gsd-smartcard
+vivian    1237  0.0  0.3 343092  9900 tty1     Sl+  07:36   0:00      \_ /usr/lib/gnome-settings-daemon/gsd-sound
+vivian    1241  0.0  0.8 504684 23348 tty1     Sl+  07:36   0:00      \_ /usr/lib/gnome-settings-daemon/gsd-xsettings
+vivian    1258  0.0  0.8 440740 22704 tty1     Sl+  07:36   0:00      \_ /usr/lib/gnome-settings-daemon/gsd-wacom
+vivian    1266  0.0  0.3 296648  8532 tty1     Sl+  07:36   0:00      \_ /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+vivian    1271  0.0  0.8 355884 21808 tty1     Sl+  07:36   0:00      \_ /usr/lib/gnome-settings-daemon/gsd-clipboard
+vivian    1274  0.0  0.9 668920 23520 tty1     Sl+  07:36   0:00      \_ /usr/lib/gnome-settings-daemon/gsd-color
+vivian    1276  0.0  0.5 476576 15368 tty1     Sl+  07:36   0:00      \_ /usr/lib/gnome-settings-daemon/gsd-datetime
+vivian    1277  0.0  0.3 374684  8804 tty1     Sl+  07:36   0:00      \_ /usr/lib/gnome-settings-daemon/gsd-housekeeping
+vivian    1281  0.0  0.8 516708 23252 tty1     Sl+  07:36   0:00      \_ /usr/lib/gnome-settings-daemon/gsd-keyboard
+vivian    1285  0.0  0.9 803008 24912 tty1     Sl+  07:36   0:00      \_ /usr/lib/gnome-settings-daemon/gsd-media-keys
+vivian    1287  0.0  0.3 296644  8588 tty1     Sl+  07:36   0:00      \_ /usr/lib/gnome-settings-daemon/gsd-mouse
+vivian    1332  0.1  1.9 973200 51284 tty1     Sl+  07:36   0:03      \_ nautilus-desktop
+vivian    1335  0.0  0.2 271932  6056 tty1     Sl+  07:36   0:00      \_ /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+vivian    1462  0.3  6.1 1085228 161568 tty1   SLl+ 07:37   0:11      \_ /usr/bin/gnome-software --gapplication-service
+vivian    1468  0.0  1.0 680780 28692 tty1     Sl+  07:37   0:00      \_ update-notifier
+vivian    1541  0.0  1.2 789656 32828 tty1     Sl+  07:38   0:00      \_ /usr/lib/deja-dup/deja-dup-monitor
+vivian    1294  0.0  0.4 508764 12400 tty1     Sl+  07:36   0:00 /usr/lib/gnome-settings-daemon/gsd-printer
+vivian    1153  0.0  0.8 356280 22552 tty1     Sl   07:36   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+ esto se puede usar con el comando : ps -ef
+
+- habra firebox y copie su PID
+ pude identifiar el PID con el comando top:
+      PID: 2713
+- MAte el firefox con el comando kill
+
+  para matar el proceso necesitamos el PID aplicando el siguiente comando:
+
+   kill 2713
+
+- habra gedit via comando y coloquelo en background con contrl+z enter
+
+ se habre con el comando: gedit se mostrara lo siguiente:
+
+^Z
+[1]+  Stopped                 gedit
+
+- Hacer que gedit se ejecute en segundo plano con el comando fg
+
+ ejecutar el siguiente comando :
+ 
+   gedit fg
+
+- use top para determinar los procesos que se estan ejecutando y estan consumiendo mas recursos
+
+   1094 vivian    20   0 2997420 305888 108580 S  6,6 11,7   3:49.83 gnome-shell  
+  916 vivian    20   0  425916  87092  49964 S  4,0  3,3   1:07.70 Xorg         
+ 1775 vivian    20   0  806420  39488  29084 S  3,3  1,5   0:51.86 gnome-termi+ 
+ 3038 vivian    20   0   51180   4200   3568 R  1,0  0,2   0:00.09 top          
+    1 root      20   0  159816   9100   6668 S  0,3  0,3   0:04.89 systemd     
+ Estos osn los procesos que estan consumiendo mas recursos
+
+- use man top para entender todo el listado 
+    
+PID: es el identificador de proceso. Cada proceso tiene un identificador único.
+USER (USUARIO): usuario propietario del proceso.
+PR: prioridad del proceso. Si pone RT es que se está ejecutando en tiempo real.
+NI: asigna la prioridad. Si tiene un valor bajo (hasta -20) quiere decir que tiene más prioridad que otro con valor alto (hasta 19).
+VIRT: cantidad de memoria virtual utilizada por el proceso.
+RES: cantidad de memoria RAM física que utiliza el proceso.
+SHR: memoria compartida.
+S (ESTADO): estado del proceso.
+%CPU: porcentaje de CPU utilizado desde la última actualización.
+%MEM: porcentaje de memoria física utilizada por el proceso desde la última actualización.
+TIME+ (HORA+): tiempo total de CPU que ha usado el proceso desde su inicio.
+COMMAND: comando utilizado para iniciar el proceso    
+
+- mate algun proceso no esencial con top y la tecla k
+
+   primero ejecutamos el comando firefox para poder tener un proceso abierto
+   luego en otra terminal ejecutamos el comando top, en esa terminal 
+presionamos la tecla k y nos mostrara el PID de el porceso que queramos matar 
+luego precionar enter y el proceso habria muerto.
+    

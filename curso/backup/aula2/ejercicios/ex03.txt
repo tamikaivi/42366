@@ -1,0 +1,12 @@
+1. cp
+     --backup -> crea un backup de cada archivo de destino existente
+
+2. mkdir
+
+    -m -> modifica los permisos del directorio creado o modificar la mascara de usuario
+
+3. rm
+
+     -d -> borra directorios vacios
+           
+
