@@ -1,0 +1,24 @@
+                       Investigación:
+
+1. Y2K
+
+El problema conocido como error del milenio o Y2K se basaba en la tesis de que, una vez alcanzado el nuevo milenio, es decir, el año 2000, los equipos lo marcarían como año 00, sin tener en cuenta el cambio de siglo. Esto significa que el mundo informático viviría en 1900.
+Solución:
+
+El jefe de informática del Banco Central de Bolivia, Gonzalo Riveros Tejada, experto en matemática aplicada y licenciado en computación científica en la UBA, puso en colapso la idea del colapso, al anunciar un programa que asegura la solución del problema a un costo mil veces inferior, y que fue recibido con vítores por los especialistas del Banco Mundial. Por las dudas, Riveros Tejada ya patentó su programa en Estados Unidos.
+“Cuando en el Banco Central de Bolivia tuvimos que encarar el problema del 2000 –dijo Riveros Tejada a Página/12–, me puse a analizar si se podía mantener el sistema de dos dígitos, que justamente es el que prestaba a confusión. Durante 15 años me dediqué a estudiar los algoritmos matemáticos de los calendarios y descubrí que ningún principio de centuria había sido año bisiesto.”
+“El último cambio de centuria no fue bisiesto, porque 1900 no es divisible por 400 –agregó el especialista boliviano–. Pero el 2000 sí. Entonces, descubrí que en 1972 se repitió exactamente el calendario del 2000. A partir de eso, ideé un programa que engaña a la máquina haciéndole cambiar en 28 años menos la lectura del algoritmo del año. Luego, en la salida de los datos, se vuelven a sumar los 28 años, con lo que el problema queda resuelto.”
+El método fue patentado por Riveros Tejada en Washington, el pasado 10 de septiembre, a través del estudio Sixbey Friedman Leedom & Ferguson, bajo un nombre algo pomposo: “Gran Retroceso de Tiempo - 28 Años”. Ya fue solicitado por 52 empresas estadounidenses, y fue recibido con alivio por los especialistas del Banco Mundial.
+“La solución propuesta –aseguró el experto– puede ser utilizada sin inconvenientes durante 28 años, no implicará ningún equipamiento adicional, y permitirá ahorrar hasta mil veces los enormes gastos en reingeniería de los sistemas informáticos de todo el mundo.” Otro experto boliviano, Iván Guzmán de Rojas, miembro de la Corte Electoral, destacó que la fórmula de su connacional “abre un período más que suficiente para desarrollar soluciones definitivas”. “Es que la solución definitiva para el problema ya existe actualmente –sostiene Riveros Tejada–, pero la mayor parte de las empresas no tienen tiempo de modificar sus programas en menos de dos años o tienen costos altísimos. De esta forma, ganan un tiempo suficiente para ponerse al día”.
+El método utilizado hasta el momento para solucionar el problema del colapso del 2000 consiste en contratar un analista que lee cada una de las líneas de códigos del programa hasta detectar la identificación de las fechas. El costo oscila en 1,6 dólares por línea de códigos a leer. Se estima que un programa común y corriente en cualquier PC ronda en las 5000 líneas, o sea, casi 8000 dólares en lectura y corrección de fechas. Según la consultora Gartner Group, un gigante mundial en el tema, el negocio remanente de depuración de sistemas tiene un piso de 400 mil millones de dólares en todo el mundo. Según Riveros Tejada, su invento demandará el uno por mil de ese costo.
+
+2. Sistema Embebido
+permite a un objeto pueda ser programado con evento o llevar a cabo órdenes que les programamos de forma remota por lo tanto son chips y circuitos que ofrecen la posibilidad de cumplir un a serie de tareas específicas las cuales serán asignadas según su IP ya que cada uno tendrá uno específico
+3. Internet of Things
+Se refiere a la relación de objetos convencional y las personas, donde todos los utensilios se conecten a las red  y se sincronizan entre ellos mismo para poder ofrecer un servicio mucho más eficiente como una especie de acción y reacción.
+4. Blockchain
+   Es una cadena de bloques cada tipo de bloque puede contener información el ejemplo más famoso es el bitcoin, cada bloque tiene tres cosas, la primera es la información que guarda el emisor, el receptor, la fecha etc., la segunda es el hash que es el número de identificador del bloque que único e irrepetible, la tercera es tener el hash de cada bloque para que se puedan entrelazar entre ellos-
+5. Computación Cuántica
+
+Es un paradigma de la computación distinto al de la computación clásica esta se basa en el uso de qubits en lugar de bits y de lugar a nuevas puertas lógicas que hacen posibles nuevos algoritmos este modelo toma los estado del átomo para realizar sus proceso en vez del lenguaje binario donde el estado del átomo puede adaptar el estado de 1 y 0 pero también puede hacer los dos al mismo tiempo donde la potencia del procesado se incrementa potencial mentes con lo cual no permite resolver problemas super rapida.
+a
