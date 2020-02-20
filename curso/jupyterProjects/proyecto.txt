@@ -1,0 +1,5 @@
+Sergio Torrrico, Vivian Loza.
+
+
+Resumen—La organización de eventos recreativos en la ciudad de La Paz es una actividad lucrativa en aumento; sin embargo, el organizar estas es un trajín que consume mucho tiempo. Es por eso que se desea lanzar una aplicación web en la que se automaticen la mayor cantidad de tareas posibles que implica el tener que organizar un evento. Se espera que el resultado implique un aumento tanto en la eficiencia de la organización de eventos, así como de un incremento en las solicitudes de reserva y uso de locales, grupos musicales y servicios de catering, entre otros. El poder implementar esta aplicación para la organización de eventos en la ciudad de La Paz proyecta ser un proyecto con un futuro lucrativo en la que gerentes de salones de eventos o grupos musicales puedan incrementar sus ganancias mediante este sistema.
+
