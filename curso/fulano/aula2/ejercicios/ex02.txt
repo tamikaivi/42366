@@ -1,3 +1,0 @@
-ls -X -> sirve para listar los elementos ordenados por la extencion.
-ls -i -> sirve para imprimir el numero de index de cada archivo
-ls -r -> sirve para listar los elementos de manera revertida al orden que tiene

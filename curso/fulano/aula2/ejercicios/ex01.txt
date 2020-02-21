@@ -1,8 +1,0 @@
-a. ls -> lista todo el contenido del directorio
-   ls -m-> Llena la terminal en ancho con el listado separado por coma.
-   ls -l -> lista todos los elementos del directorio en un formato largo
-   ls -l -v -> lista todos los elementos en un formato largo y ordenada por numeros dentro del texto en formato natural
-c. ls ai[1-5],c -> lista los elementos del directorio de con el nombre ai del 1 al 5 terminados en c.
-   ls [a-c]ii1,c -> lista los archivos que comiencen con la a b o c y terminen en ii1,c
-e. echo ai[1-5],c -> imprime el el contenido de comando que lista los archivos que comienzan en ai donde entre medio contienen entre el 1 y 5 y terminan en c
-   ls [a-c]ii1,c -> lista los archivos que comiencen con la a b o c y terminen en ii1,c
